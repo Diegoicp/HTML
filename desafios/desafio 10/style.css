@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+
+body{
+background-color: rgb(137, 221, 137);
+}
+header{
+    background-image: linear-gradient(to top, rgb(2, 66, 2),rgba(5, 175, 5, 0.808));
+    box-shadow: 2px 2px 5px rgba(0, 128, 0, 0.507);
+
+}
+/*importação das fontes*/
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: 'android2';
+    src: url(fontes/Roboto-Regular.ttf);
+}
+/*configuração do cabeçalho*/
+header > div{
+    font-family: 'android2';
+    padding: 10px;
+    margin: auto;
+   text-align: center;
+   color: white;
+
+}
+header > div >h1{
+padding: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 128, 0, 0.466);
+}
+header > div >p{
+    margin: auto;
+    width: 450px;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px rgba(0, 128, 0, 0.466);
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+nav >a {
+    font-size: 15px;
+    font-family: 'android2';
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+/*Configuração do corpo*/
+main{
+    background-color: white;
+    margin: 0 100px;
+    padding: 10px;
+}
+main > div >h1{
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 128, 0, 0.308);
+    color: rgb(6, 92, 6);
+    font-family: 'android';
+    
+}
+main>div>h2{
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 128, 0, 0.308);
+    color: rgb(6, 92, 6);
+    font-family: 'android';
+    
+}
+main>div>h2{
+background-image: linear-gradient(to right, rgba(144, 230, 144, 0.671), rgba(147, 223, 147, 0));
+margin-right: 100px;
+}
+main> div >p{
+font-family: 'android2';
+margin: 10px;
+text-align: justify;
+text-indent: 20px;
+
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+}
+#bugdroid{
+width: 30%;
+margin: 0 auto;
+text-align: center;
+}
+#video{
+    
+}
+#extra{
+    background-color: rgb(107, 189, 107);
+    font-family: 'android2';
+    border-radius: 10px;
+   
+}
+#titulo{
+    border-radius: 10px;
+background-color: green;
+margin: 0;
+color: white;
+font-weight: bolder;
+padding: 10px;
+}
+#lista{
+    display: inline block;
+}
